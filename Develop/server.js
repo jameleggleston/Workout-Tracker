@@ -1,9 +1,8 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-
 //Importing controllers
-const routes = require('./controllers')
+const routes = require('./controllers');
 
 const PORT = process.env.PORT || 3000;
 
